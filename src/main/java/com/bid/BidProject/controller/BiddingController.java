@@ -31,6 +31,7 @@ public class BiddingController {
     }
     @GetMapping(value = "/getBidAll")
     public List<Bid> getBid(){
+        System.out.println("this is branch 1");
         return  biddingRepo.findAll();
 
     }
