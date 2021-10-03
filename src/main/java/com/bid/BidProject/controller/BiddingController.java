@@ -28,7 +28,10 @@ public class BiddingController {
 
         System.out.println("this is master branch this is bid branch 1 for conflict");
 
-        System.out.println("this is master branch editing for conflict");
+        System.out.println("this is master branch editing for conflict BRANCH 1");
+        System.out.println("this is master branch editing for conflict BRANCH 1");
+        System.out.println("this is master branch editing for conflict BRANCH 1");
+        System.out.println("this is master branch editing for conflict BRANCH 1");
 
        return  biddingRepo.getById(id);
 
