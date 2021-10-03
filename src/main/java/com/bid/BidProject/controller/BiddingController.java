@@ -32,6 +32,7 @@ public class BiddingController {
     }
     @GetMapping(value = "/getBidAll")
     public List<Bid> getBid(){
+        System.out.println("this is master branch before pull req");
         return  biddingRepo.findAll();
 
     }
