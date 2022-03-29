@@ -25,7 +25,7 @@ public class BiddingController {
 
     @GetMapping(value = "/getBid/{id}")
     public Bid getBid(@PathVariable int id){
-        System.out.println("this is Bid-projectBranch-2222222");
+        System.out.println("this is Bid-projectBranch-222444444");
         System.out.println("this is master branch commit 1");
        return  biddingRepo.getById(id);
 
