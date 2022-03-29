@@ -32,7 +32,7 @@ public class BiddingController {
     }
     @GetMapping(value = "/getBidAll")
     public List<Bid> getBid(){
-        System.out.println("this is branch 1");
+        System.out.println("this is branch 333333333");
         System.out.println("this is a test message to check mrege conflict");
 
         return  biddingRepo.findAll();
